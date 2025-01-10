@@ -1,0 +1,112 @@
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background:pink;
+}
+
+header {
+    background:grey;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #fff;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    max-width: 300px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background0.3s;
+}
+
+form button:hover {
+    background:lavenderblush;
+}
+
+footer {
+    background:grey;
+    color:white;
+    text-align: center;
+    padding: 12px;
+}
+#links ul {
+    list-style: none;
+    padding:0;
+}
+
+#links ul li {
+    margin: 10px 0;
+}
+
+#links ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+
+
+#links ul li a:hover {
+    text-decoration: underline;
+}
